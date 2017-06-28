@@ -9,8 +9,8 @@ goosifreak/dockerizing-django:
   Start:
     - cd $DISTELLI_INSTALLHOME
     - echo "Start Application"
-    - sudo /usr/local/bin/docker-compose build
-    - sudo /usr/local/bin/docker-compose up -d
-    - sudo /usr/local/bin/docker-compose run web /usr/local/bin/python manage.py migrate
+    - sudo /usr/bin/docker-compose build
+    - sudo /usr/bin/docker-compose up -d
+    - sudo /usr/bin/docker-compose run web /usr/local/bin/python manage.py migrate
 
 
