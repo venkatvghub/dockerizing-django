@@ -1,4 +1,4 @@
-<goosifreak>/dockerizing-django:
+goosifreak/dockerizing-django:
   PkgInclude:
     - '*'
   PreInstall:
